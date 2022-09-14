@@ -536,7 +536,12 @@ class NgxIntlTelInputComponent {
         if (c.name.toLowerCase().startsWith(countrySearchTextLower)) {
           return c;
         }
-        if (c.dialCode.startsWith(this.countrySearchText)) {
+        let addPlus = this.countrySearchText?this.countrySearchText[0]==='+':this.countrySearchText;
+        let addTwoZeroes = this.countrySearchText?this.countrySearchText[0]==='0' && this.countrySearchText[1]==='0':this.countrySearchText
+
+        if (
+          c.dialCode.startsWith(addPlus)||c.dialCode.startsWith(this.countrySearchText)||c.dialCode.startsWith(this.countrySearchText)
+          ) {
           return c;
         }
         if (this._normaliseArabic(c.name).includes(this._normaliseArabic(countrySearchTextLower))) {

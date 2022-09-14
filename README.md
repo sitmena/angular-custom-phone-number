@@ -1,4 +1,11 @@
-# International Telephone Input for Angular (NgxIntlTelInput)
+# Sitech angular phone number input
+The original library lacked arabic translation & lacked search in arabic, this forked version includes both and depends on localStorage variable 'language'
+
+this version supports Angular 8.x - 13.x
+
+Instead of using installation bellow: 'npm install git+https://github.com/sitmena/angular-custom-phone-number.git'
+
+# forked from ngx-intl-tel-input@3.2.0 International Telephone Input for Angular (NgxIntlTelInput)
 
 [![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors)
 
