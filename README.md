@@ -3,7 +3,7 @@ The original library lacked arabic translation & lacked search in arabic, this f
 
 this version supports Angular 8.x - 13.x
 
-# forked from International Telephone Input for Angular (NgxIntlTelInput)
+# forked from ngx-intl-tel-input@3.2.0 International Telephone Input for Angular (NgxIntlTelInput)
 
 [![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors)
 
