@@ -1,5 +1,7 @@
 # Sitech angular phone number input
-The original library lacked arabic translation & lacked search in arabic, this forked from version includes both
+The original library lacked arabic translation & lacked search in arabic, this forked from version includes both and depends on localStorage variable 'language'
+
+this version supports Angular 8.x - 13.x
 
 # forked from International Telephone Input for Angular (NgxIntlTelInput)
 
