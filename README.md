@@ -1,4 +1,7 @@
-# International Telephone Input for Angular (NgxIntlTelInput)
+# Sitech angular phone number input
+The original library lacked arabic translation & lacked search in arabic, this forked from version includes both
+
+# forked from International Telephone Input for Angular (NgxIntlTelInput)
 
 [![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors)
 
