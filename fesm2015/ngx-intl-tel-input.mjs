@@ -536,11 +536,11 @@ class NgxIntlTelInputComponent {
         if (c.name.toLowerCase().startsWith(countrySearchTextLower)) {
           return c;
         }
-        let addPlus = this.countrySearchText?this.countrySearchText[0]==='+':this.countrySearchText;
-        let addTwoZeroes = this.countrySearchText?this.countrySearchText[0]==='0' && this.countrySearchText[1]==='0':this.countrySearchText
+        let addPlus = `+${c.dialCode}`;
+        let addTwoZeroes = `00${c.dialCode}`;
 
         if (
-          c.dialCode.startsWith(addPlus)||c.dialCode.startsWith(this.countrySearchText)||c.dialCode.startsWith(this.countrySearchText)
+          addPlus.startsWith(this.countrySearchText)||addTwoZeroes.startsWith(this.countrySearchText)||c.dialCode.startsWith(this.countrySearchText)
           ) {
           return c;
         }
