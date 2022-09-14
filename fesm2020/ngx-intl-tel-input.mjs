@@ -260,7 +260,7 @@ class CountryCode {
     constructor() {
         this.allCountries = [
             [
-                'Afghanistan (‫افغانستان‬‎)',
+                'Afghanistan console.log(\'esm2020\')(‫افغانستان‬‎)',
                 CountryISO.Afghanistan,
                 '93'
             ],
