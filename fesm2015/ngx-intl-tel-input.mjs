@@ -569,11 +569,7 @@ class NgxIntlTelInputComponent {
     if (country.length > 0) {
       const el = this.countryList.nativeElement.querySelector('#' + country[0].htmlId);
       if (el) {
-        el.scrollIntoView({
-          behavior: 'smooth',
-          block: 'nearest',
-          inline: 'nearest',
-        });
+        el.parentNode.scrollTop = el.offsetTop;
       }
     }
     this.checkSeparateDialCodeStyle();
